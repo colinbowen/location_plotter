@@ -2,8 +2,6 @@ import settings
 import os
 from flask import Flask
 
-
-
 # GMAIL API
 CLIENT_ID = os.getenv("CLIENT_ID")
 CLIENT_SECRET = os.getenv("CLIENT_SECRET")
